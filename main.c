@@ -52,7 +52,7 @@ void calculate(int array[], intarr[][5])
 {
     FILE *file = fopen("test.txt","a");
     inti,a,b;
-    int min = 0;
+    int john = 0;
     char buff[5], men[5];
     intx[5] = { 0 };
     int k1 = 0;
