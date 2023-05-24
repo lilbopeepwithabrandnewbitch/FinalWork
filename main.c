@@ -51,10 +51,13 @@ void array_output(int array[], intarr[][5])
 void calculate(int array[], intarr[][5])
 {
     FILE *file = fopen("test.txt","a");
-    inti,a,b;
+    int i; // Commentary
+	int a; // I don't know what is this
+	int b; // Just do nothing
     int min = 0;
-    char buff[5], men[5];
-    intx[5] = { 0 };
+    char buff[5];
+	char men[5];
+    int x[5] = { 0 };
     int k1 = 0;
     int k2 = 0;
     scanf("%d", &k1);
